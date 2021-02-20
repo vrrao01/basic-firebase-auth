@@ -82,7 +82,7 @@ class _HomeState extends State<Home> {
                     Expanded(
                         flex:5,
                         child: (imagePath==null) ? Image.network(
-                          "https://picsum.photos/350/350",
+                          "https://via.placeholder.com/500x500?text=Upload+an+Image",
                           width: double.infinity,
                           fit:BoxFit.scaleDown,
                         ):Image.network(imagePath,width: double.infinity,fit: BoxFit.scaleDown)
