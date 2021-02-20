@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "52007365930",
+    "project_id": "image-upload-auth",
+    "storage_bucket": "image-upload-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52007365930:android:04f9d63b43fcd894384253",
+        "android_client_info": {
+          "package_name": "vrrao01.image_upload_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52007365930-ru63tptnp2d4ladtifiogbig5h2gn2ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhbKTpCX-I7FdHlFVG1aHfHR1u1HQUX0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52007365930-ru63tptnp2d4ladtifiogbig5h2gn2ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
