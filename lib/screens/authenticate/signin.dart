@@ -58,6 +58,7 @@ class _SignInState extends State<SignIn> {
                 ),
                 SizedBox(height: 20.0,),
                 TextFormField(
+                  obscureText: true,
                   decoration: formFieldDecoration.copyWith(hintText: 'Password',prefixIcon: Icon(Icons.lock)),
                   validator: (value)=> value.length<8? 'Password must be at least 8 characters':null,
                   onChanged: (value) {setState(() {
