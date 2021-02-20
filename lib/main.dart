@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return StreamProvider.value(
       value: FirebaseAuth.instance.authStateChanges(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: Wrapper(),
       ),
     );
